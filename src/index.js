@@ -1,9 +1,6 @@
-//
-// import ReactDom from 'react-dom';
+
 import App from "./App";
 import './index.css'
-//
-// ReactDom.render(<App/>, document.querySelector("#root"))
 
 import { createRoot } from 'react-dom/client';
 const container = document.getElementById('app');
