@@ -70,3 +70,18 @@
         padding: 2rem 1rem;
     }
 }
+
+/* ===================== MEDIA QUERIES (VERY SMALL DEVICES) ================== */
+
+@media screen and (max-width: 400px){
+    .experience__container {
+        gap: 1rem;
+    }
+    .experience__container > dic {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+    .experience__content {
+        grid-template-columns: 1fr;
+    }
+}
